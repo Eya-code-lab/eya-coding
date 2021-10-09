@@ -1,0 +1,77 @@
+.once{
+    font-size: 50px;
+    color: #eb2f06;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: grey ;
+    line-height: 50px;
+}
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s;
+}
+
+nav ul li:hover{
+    background-color:  rgb(66, 66, 66) ;
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #f8c291;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #eb2f06;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #eb2f06;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #eb2f06;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+a{
+    color:#eb2f06 ;
+    text-decoration: none;
+    text-align: center;
+}
